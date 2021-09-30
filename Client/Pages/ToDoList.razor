@@ -16,15 +16,15 @@
 <button @onclick="AddTodo">Add todo</button>
 
 @code {
-    private List<TodoItem> todos = new();
-    private string newTodo;
+    private List<TodoItem> todos = new();       //This creates a private list for to do list items
+    private string newTodo;                     //This creats to items on to do list
 
     private void AddTodo()
     {
-        if (!string.IsNullOrWhiteSpace(newTodo))
+        if (!string.IsNullOrWhiteSpace(newTodo))            // checks to see if anything is written in the to do list
         {
-            todos.Add(new TodoItem { Title = newTodo });
-            newTodo = string.Empty;
+            todos.Add(new TodoItem { Title = newTodo });    // adds a new to do item to the list
+            newTodo = string.Empty;                         // set todo to an empty string
         }
     }
 }
