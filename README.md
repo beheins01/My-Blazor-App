@@ -23,3 +23,6 @@ _Note: If you're using the Azure Functions CLI tools, refer to [the documentatio
 ## Deploy to Azure Static Web Apps
 
 This application can be deployed to [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps), to learn how, check out [our quickstart guide](https://aka.ms/blazor-swa/quickstart).
+
+APP LINK https://delightful-plant-0c033610f.azurestaticapps.net/
+TODOLIST TUTORIAL LINK https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app?view=aspnetcore-5.0&pivots=server
